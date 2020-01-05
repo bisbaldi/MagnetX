@@ -1,0 +1,11 @@
+{"stock": {
+  "high": ["tomato"],
+  "medium": ["cucumber", "onion"],
+  "low": []
+},
+"both": {
+  "high": [],
+  "medium": [],
+  "low": ["eggs"]
+},
+"shopping_list": ["milk", "apple"]}

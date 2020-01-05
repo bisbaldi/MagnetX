@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Shopping List</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {{#each shopping_list}}
+                        <li class="list-group-item">{{this}}</li>
+                    {{/each}}
+                    {{#each both.low}}
+                        <li class="list-group-item" style=" background-color: #F7977A;">{{this}}</li>
+                    {{/each}}
+                    {{#each both.medium}}
+                        <li class="list-group-item" style=" background-color: #FFF79A;">{{this}}</li>
+                    {{/each}}
+                    {{#each both.high}}
+                        <li class="list-group-item" style=" background-color: #82CA9D;">{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Stock</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {{#each stock.low}}
+                        <li class="list-group-item" style=" background-color: #F7977A;">{{this}}</li>
+                    {{/each}}
+                    {{#each stock.medium}}
+                        <li class="list-group-item" style=" background-color: #FFF79A;">{{this}}</li>
+                    {{/each}}
+                    {{#each stock.high}}
+                        <li class="list-group-item" style=" background-color: #82CA9D;">{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

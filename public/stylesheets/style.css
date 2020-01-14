@@ -1,5 +1,6 @@
 body {
-  padding: 50px;
+  padding: 15px;
+  padding-top:50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -8,6 +9,6 @@ a {
 }
 
 .card {
-  margin: 15px;
+  margin-top: 15px;
 }
 

@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
     console.log(body.url);
   console.log(body.explanation);
 });*/
-  var json = require("/Users/annika/Documents/LNU/4ME303-TangibleUserInterfaces/Assignments/03 Final project/WebApp/public/test.json");
+  var json = require("../public/test.json");
   res.render('index', {stock: json.stock, both: json.both, shopping_list: json.shopping_list});
 });
 
